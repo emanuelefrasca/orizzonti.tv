@@ -193,11 +193,11 @@ body{
     width: 100%;
     height: 100%;
     z-index: 0;
-    display: block;
-    background-image: url(../video/bg_VIDEO.png);
+    background-image: url(../images/bgm.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .displaynone{
@@ -278,7 +278,7 @@ body{
     letter-spacing: 1px;
 }
 
-.testo4 {
+.testo5 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     font-size: 20px;
@@ -297,7 +297,7 @@ body{
 
 .logo {
     background: url(../images/bg.svg);
-    width: 100%;
+    width: 90%;
     height: 100%;
     background-size: 100%;
     margin-top: 8%;
@@ -378,6 +378,23 @@ body{
 
 
 @media (max-width: 1024px) {
+    
+    .video_cut {
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+    }
+    
+.navfixed {
+    position: relative;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 0px;
+    border: none;
+}
     
 .testo_over_photo {
     font-size: 30px;
@@ -483,7 +500,7 @@ body{
 }
 
 .logo {
-    background: url(../images/bg_01.png);
+    background: url(../images/bg.svg);
     width: 90%;
     height: 100%;
     background-size: 100%;
@@ -568,11 +585,11 @@ body{
 @media (max-width: 500px) {
     
 .logo {
-    background: url(../images/bg_01.png);
+    background: url(../images/bg.svg);
     width: 96%;
     height: 100%;
     background-size: 100%;
-    margin-top: 70%;
+    margin-top: 40%;
     margin-left: 2%;
     background-repeat: no-repeat;
 }
