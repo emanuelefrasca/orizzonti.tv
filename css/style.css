@@ -8,8 +8,13 @@ body{
     overflow-x: hidden;
 }
 
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+margin-right: 0px;
+margin-left: 0px;
+}
+
 .nomargin{
-    margin: 0;
+    margin: 0px; 
 }
 
 .menu {
@@ -222,6 +227,7 @@ body{
     -webkit-filter: grayscale(90%);
     -moz-filter: grayscale(90%);
     filter: grayscale(90%);
+    padding-bottom: 25px;
 }
 .frecciasu {
     font-size: 0px; line-height: 0%; width: 0px;
@@ -251,6 +257,16 @@ body{
     font-weight: 100;
     font-size: 20px;
     letter-spacing: 1px;
+}
+
+.testo10 {
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    padding-top: 25px;
 }
 .testo2 {
     text-align: left;
@@ -296,8 +312,8 @@ body{
 }
 
 .logo {
-    background: url(../images/bg.svg);
-    width: 90%;
+    background: url(../images/bg.png);
+    width: 100%;
     height: 100%;
     background-size: 100%;
     margin-top: 8%;
@@ -528,8 +544,27 @@ body{
 
 @media (max-width: 767px) {
 
+.testopiccolo {
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 0px; 
+    padding-left: 20px;
+}
+    
 .paddingtop {
     padding-top: 40%;
+}
+    
+.testo10 {
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    padding-top: 25px;
 }
 
 .titolo {
@@ -598,3 +633,14 @@ body{
 
 
 
+
+
+
+.testopiccolo {
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 2px; 
+    padding-left: 20px;
+}
