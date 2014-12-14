@@ -18,7 +18,7 @@
 	<script src="js/queryloader2.min.js" type="text/javascript"></script>
   </head>
   <body>
-    <nav class="navbar navbar-default navfixed" role="navigation">
+    <nav class="navbar navbar-default navfixed displaynone" data-i18n="it" role="navigation">
       <div class="container-fluid nopadding">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -54,6 +54,42 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+    <nav class="navbar navbar-default navfixed" data-i18n="en" role="navigation">
+      <div class="container-fluid nopadding">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" id="" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar" id="righemobile"></span>
+            <span class="icon-bar" id="righemobile"></span>
+            <span class="icon-bar" id="righemobile"></span>
+          </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navwidth navigation">
+            <li class="btn btn-default navbar-btn bottone">
+                <a class="bottone_testo" href="#slide1" type="button" data-name="home">home</a>
+            </li>
+            <li class="btn btn-default navbar-btn bottone">
+                <a class="bottone_testo" href="#slide2" type="button" data-name="chi-siamo">about us</a>
+            </li>
+            <li class="btn btn-default navbar-btn bottone">
+                <a class="bottone_testo" href="#slide4" type="button" data-name="team-creativo">our team</a>
+            </li>
+            <li class="btn btn-default navbar-btn bottone">
+                <a class="bottone_testo" href="#slide6" type="button" data-name="attivita">activity</a>
+            </li>
+            <li class="btn btn-default navbar-btn bottone">
+                <a class="bottone_testo" href="#slide8" type="button" data-name="clienti">customers</a>
+            </li>
+            <li class="btn btn-default navbar-btn bottone">
+                <a class="bottone_testo" href="#slide12" type="button" data-name="contatti">contacts</a>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
     <section class="slide" id="slide1">
         <div class="container-fluid altezza nopadding nomargin">
             <div class="row altezza nomargin nopadding">
@@ -61,8 +97,6 @@
                     <div class="video_cut altezza" id="leoneh"  data-stellar-ratio="0.5">
                         <video id="bgVideo" class="video-js vjs-default-skin" autoplay loop muted preload="auto">
                              <source src="video/video.mp4" type='video/mp4' />
-                             <source src="http://www.room237.it/video/room237.webm" type='video/webm' />
-                             <source src="http://www.room237.it/video/room237.ogg" type='video/ogg' />
                              <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
                         </video>
                         <div id="imgmobile" class="displaynone">
@@ -94,7 +128,14 @@
                     <div class="titolo">
                     ORIZZONTI IT
                     </div>
-                    <div class="testo">
+                    <div class="testo displaynone" data-i18n="it">
+                    è una creative production italiana.</br>
+è una creative production italiana.</br>
+La sua mission è creare, sviluppare ed adattare contenuti televisivi e multimediali.</br>
+Il gruppo è costituito da cinquanta creativi italiani, registi, autori, e sceneggiatori di chiara fama. che, ogni giorno creano nuovi contenuti  televisivi, multimediali, realizzano eventi e campagne di comunicazione aziendale ed istituzionale.</br> 
+Un gruppo di professionisti accomunati da  una profonda conoscenza del mondo dell’audiovisivo e dall’entusiasmante e costante impegno nella ricerca di nuovi contenuti, linguaggi e modalità di comunicazione da declinare  in tutte le forme.
+                    </div>
+                    <div class="testo" data-i18n="en">
                     è una creative production italiana.</br>
 La sua mission è creare, sviluppare ed adattare contenuti televisivi e multimediali.</br>
 Il gruppo è costituito da cinquanta creativi italiani, registi, autori, e sceneggiatori di chiara fama. che, ogni giorno creano nuovi contenuti  televisivi, multimediali, realizzano eventi e campagne di comunicazione aziendale ed istituzionale.</br> 
@@ -124,8 +165,11 @@ Un gruppo di professionisti accomunati da  una profonda conoscenza del mondo del
                 </div>
                 <div class="row nomargin">
                     <div class="col-sm-8 col-sm-offset-2 paddingtop">
-                        <div class="testo_over_photo">
+                        <div class="testo_over_photo displaynone" data-i18n="it">
                         LA NOSTRA SQUADRA
+                        </div>
+                        <div class="testo_over_photo" data-i18n="en">
+                        OUR TEAM
                         </div>
                     </div>
                 </div>
@@ -137,8 +181,11 @@ Un gruppo di professionisti accomunati da  una profonda conoscenza del mondo del
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-2 col-sm-offset-2 bordosx">
-                    <div class="titolo">
+                    <div class="titolo displaynone" data-i18n="it">
                     AUTORI
+                    </div>
+                    <div class="titolo" data-i18n="en">
+                    AUTHORS
                     </div>
                     <div class="testo">
                     Carmine Andreano<br>
@@ -185,8 +232,11 @@ Un gruppo di professionisti accomunati da  una profonda conoscenza del mondo del
                     </div>
                 </div>
                 <div class="col-sm-4 col-sm-offset-1 bordosx">
-                    <div class="titolo">
+                    <div class="titolo displaynone" data-i18n="it">
                     REGISTI
+                    </div>
+                    <div class="titolo" data-i18n="en">
+                    DIRECTORS
                     </div>
                     <div class="testo">
                     Luigi Antonini<br>
@@ -223,8 +273,11 @@ Un gruppo di professionisti accomunati da  una profonda conoscenza del mondo del
                 </div>
                 <div class="row nomargin">
                     <div class="col-sm-8 col-sm-offset-2 paddingtop">
-                        <div class="testo_over_photo">
+                        <div class="testo_over_photo displaynone" data-i18n="it">
                         I NOSTRI PUNTI DI FORZA
+                        </div>
+                        <div class="testo_over_photo" data-i18n="en">
+                        OUR STRANGTHS
                         </div>
                     </div>
                 </div>
@@ -236,10 +289,13 @@ Un gruppo di professionisti accomunati da  una profonda conoscenza del mondo del
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
-                    <div class="testo3">
+                    <div class="testo3 displaynone" data-i18n="it">
                     In questi anni abbiamo fatto numerose esperienze, in ogni genere di programma, dal reality al game, dal infotainment al factual, la fiction ed il cinema. in Italia ed in altri paesi del mondo, nella televisione generalista ed in quella tematica.<br>
 Alcune delle opere da noi create:
-
+                    </div>
+                    <div class="testo3" data-i18n="en">
+                    In questi anni abbiamo fatto numerose esperienze, in ogni genere di programma, dal reality al game, dal infotainment al factual, la fiction ed il cinema. in Italia ed in altri paesi del mondo, nella televisione generalista ed in quella tematica.<br>
+Alcune delle opere da noi create:
                     </div>
                 </div>
             </div>
@@ -307,8 +363,11 @@ Alcune delle opere da noi create:
             </div>
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2 bordosx">
-                    <div class="titolo">
+                    <div class="titolo displaynone" data-i18n="it">
                     COMUNICAZIONE
+                    </div>
+                    <div class="titolo" data-i18n="en">
+                    COMMUNICATION
                     </div>
                     <div class="testo">
                     • Spot elettorale Movimento per l’autonomie<br>
@@ -339,8 +398,11 @@ Alcune delle opere da noi create:
             </div>
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2 bordosx">
-                    <div class="titolo">
+                    <div class="titolo displaynone" data-i18n="it">
                     EVENTI
+                    </div>
+                    <div class="titolo" data-i18n="en">
+                    EVENTS
                     </div>
                     <div class="testo">
                     • Convention Johnson & Johnson - Isola Tiberina - Orizzonti-Grattacieli Line<br>
@@ -375,8 +437,11 @@ Alcune delle opere da noi create:
                 </div>
                 <div class="row nomargin">
                     <div class="col-sm-8 col-sm-offset-2 paddingtop">
-                        <div class="testo_over_photo">
+                        <div class="testo_over_photo displaynone" data-i18n="it">
                         ALCUNI DEI NOSTRI CLIENTI
+                        </div>
+                        <div class="testo_over_photo" data-i18n="en">
+                        SOME OF OUR CUSTOMERS
                         </div>
                     </div>
                 </div>
@@ -454,8 +519,11 @@ Alcune delle opere da noi create:
                 </div>
                 <div class="row nomargin">
                     <div class="col-sm-8 col-sm-offset-2 paddingtop">
-                        <div class="testo_over_photo">
+                        <div class="testo_over_photo displaynone" data-i18n="it">
                         CONTATTI
+                        </div>
+                        <div class="testo_over_photo" data-i18n="en">
+                        CONTACTS
                         </div>
                     </div>
                 </div>
@@ -477,7 +545,10 @@ Alcune delle opere da noi create:
         </div>
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
-                <div class="testo3">
+                <div class="testo3 displaynone" data-i18n="it">
+                <span class="testo5">DUILIO SIMONELLI</span> • fondatore e COO di Orizzonti It. Ha maturato la sua esperienza nell’ambito televisivo in Mediaset dal 1983 al 2000. Ha operato come consulente di alcune televisioni dell ‘ Est europa ed ha collaborato in Spagna, dal 2009 al 2011, per la produzione di vari programmi televisivi. 
+                </div>
+                <div class="testo3" data-i18n="en">
                 <span class="testo5">DUILIO SIMONELLI</span> • fondatore e COO di Orizzonti It. Ha maturato la sua esperienza nell’ambito televisivo in Mediaset dal 1983 al 2000. Ha operato come consulente di alcune televisioni dell ‘ Est europa ed ha collaborato in Spagna, dal 2009 al 2011, per la produzione di vari programmi televisivi. 
                 </div>
             </div>
@@ -488,7 +559,10 @@ Alcune delle opere da noi create:
         </div>
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
-                <div class="testo3">
+                <div class="testo3 displaynone" data-i18n="it">
+                <span class="testo5">BARBARA ROSSI BIGIONI</span> • C.E.O. Ha maturato la sua esperienza in grandi studi professionali italiani per specializzarsi poi nella gestione amministrativa e finanziaria  di aziende cine televisive. È in carica come C.E.O  dal 2006.
+                </div>
+                <div class="testo3" data-i18n="en">
                 <span class="testo5">BARBARA ROSSI BIGIONI</span> • C.E.O. Ha maturato la sua esperienza in grandi studi professionali italiani per specializzarsi poi nella gestione amministrativa e finanziaria  di aziende cine televisive. È in carica come C.E.O  dal 2006.
                 </div>
             </div>
@@ -499,7 +573,10 @@ Alcune delle opere da noi create:
         </div>
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
-                <div class="testo3">
+                <div class="testo3 displaynone" data-i18n="it">
+                <span class="testo5">LUCIA LO RUSSO</span> • Ha maturato la sua esperienza professionale come scenografo di numerosi programmi televisivi per approdare all’attività di consulente per l’immagine di eventi live e di aziende. Coordina tutte le attività produttive di Orizzonti ivi incluse quelle attinenti la comunicazione aziendale ed istituzionale. 
+                </div>
+                <div class="testo3" data-i18n="en">
                 <span class="testo5">LUCIA LO RUSSO</span> • Ha maturato la sua esperienza professionale come scenografo di numerosi programmi televisivi per approdare all’attività di consulente per l’immagine di eventi live e di aziende. Coordina tutte le attività produttive di Orizzonti ivi incluse quelle attinenti la comunicazione aziendale ed istituzionale. 
                 </div>
             </div>
@@ -510,9 +587,12 @@ Alcune delle opere da noi create:
         </div>
         <div class="row">
             <div class="col-sm-8 col-sm-offset-2">
-                <div class="testo3">
+                <div class="testo3 displaynone" data-i18n="it">
                 <span class="testo5">CHRYSTEL SIINO</span> • Ha maturato la sua esperienza nelle più note agenzie pubblicitarie e di management italiane e francesi. 
                 </div>
+                <div class="testo3" data-i18n="en">
+                <span class="testo5">CHRYSTEL SIINO</span> • ENGHa maturato la sua esperienza nelle più note agenzie pubblicitarie e di management italiane e francesi. 
+                </div>                
             </div>
         </div>
         <div class="row">
@@ -529,14 +609,28 @@ Alcune delle opere da noi create:
         </div>
         <div class="row">
             <div class="col-sm-4 col-sm-offset-2 bordosx">
-                <div class="titolo">
-                    CONTATTI
+                <div class="titolo displaynone" data-i18n="it">
+                    CONTATTACI
                 </div>
-                <div class="testo">
+                <div class="titolo" data-i18n="en">
+                    CONTACT US
+                </div>
+                <div class="testo displaynone" data-i18n="it">
                 GENERAL MANAGER<br>
                 Duilio Simonelli <br>
                 <a href="mailto:d.simonelli@orizzonti.tv.it" style="color:#343478">d.simonelli@orizzonti.tv.it</a><br><br>
                 AMMINISTRAZIONE E FINANZA<br>
+                Barbara Rossi Bigoni <br>
+                <a href="mailto:b.rossi@orizzonti.tv.it" style="color:#343478">b.rossi@orizzonti.tv.it</a><br><br>
+                EVENT E PRODUCION MANAGER<br>
+                Lucia Lo Russo <br>
+                <a href="mailto:l.lorusso@orizzonti.tv.itt" style="color:#343478">l.lorusso@orizzonti.tv.it</a><br><br>
+                </div>
+                <div class="testo" data-i18n="en">
+                GENERAL MANAGER<br>
+                Duilio Simonelli <br>
+                <a href="mailto:d.simonelli@orizzonti.tv.it" style="color:#343478">d.simonelli@orizzonti.tv.it</a><br><br>
+                ADMINISTRATION AND FINANCE<br>
                 Barbara Rossi Bigoni <br>
                 <a href="mailto:b.rossi@orizzonti.tv.it" style="color:#343478">b.rossi@orizzonti.tv.it</a><br><br>
                 EVENT E PRODUCION MANAGER<br>
@@ -640,7 +734,7 @@ Alcune delle opere da noi create:
     </script>
     <script>
         function is_mobile() { 
-             if( navigator.userAgent.match(/Android/i)
+             if(navigator.userAgent.match(/Android/i)
              || navigator.userAgent.match(/webOS/i)
              || navigator.userAgent.match(/iPhone/i)
              || navigator.userAgent.match(/iPad/i)
@@ -676,6 +770,18 @@ Alcune delle opere da noi create:
             aspect();
             window.addEventListener('resize', aspect);
         });
+    </script>
+    <script>
+        var translate = function (lang) {
+            var languages = ['it', 'en'];
+            languages.splice(languages.indexOf(lang),1);
+            var no_lang = languages[0];
+            $('[data-i18n="' + no_lang + '"]').addClass('displaynone');
+            $('[data-i18n="' + lang + '"]').removeClass('displaynone');      
+        };
+        var userLang = navigator.language || navigator.userLanguage;
+        var lang = userLang === 'it' ? 'it' : 'en';
+        translate(lang);
     </script>
   </body>
 </html>
