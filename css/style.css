@@ -35,6 +35,8 @@ margin-left: 0px;
 #slide2,
 #slide4,
 #slide6,
+#slide6b,
+#slide6c,
 #slide8,
 #slide10,
 #slide12{
@@ -55,6 +57,17 @@ margin-left: 0px;
     background-size: 100%;
     background-attachment: fixed;
     height: 600px;
+}
+
+
+#slide3b {
+    background-color:#ffffff;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 200px;
+    
 }
 
 .navfixed {
@@ -102,7 +115,17 @@ margin-left: 0px;
     font-weight: 600;
     color: white;
     text-shadow: -1px 0 rgba(150, 150, 150, 1), 0 1px rgba(150, 150, 150, 1), 1px 0 rgba(150, 150, 150, 1), 0 -1px rgba(150, 150, 150, 1);
-    padding-top: 5%;
+    padding-top: 2%;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+.testo_over_photob {
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    text-shadow: -1px 0 rgba(150, 150, 150, 1), 0 1px rgba(150, 150, 150, 1), 1px 0 rgba(150, 150, 150, 1), 0 -1px rgba(150, 150, 150, 1);
+    padding-top: 10%;
     letter-spacing: 1px;
     z-index: 1;
 }
@@ -338,11 +361,27 @@ margin-left: 0px;
     background: rgb(52, 52, 120);
     background-size: cover;
     background-image: url(../images/bg_05.png);
-    background-repeat: repeat-y ;
+    background-repeat: repeat-y;
+}
+
+.sfondosectionb {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: rgb(52, 52, 120);
+    background-size: cover;
+    background-image: url(../images/bg_05.png);
+    background-repeat: repeat-y;
 }
 
 .altezza3 {
     height: 600px;
+    padding: 0px;
+}
+
+.altezza3b {
+    height: 200px;
     padding: 0px;
 }
 
@@ -420,6 +459,16 @@ margin-left: 0px;
     padding-top: 0%;
     letter-spacing: 1px;
 }    
+    
+.testo_over_photob {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-shadow: -1px 0 rgba(150, 150, 150, 1), 0 1px rgba(150, 150, 150, 1), 1px 0 rgba(150, 150, 150, 1), 0 -1px rgba(150, 150, 150, 1);
+    padding-top: 5%;
+    letter-spacing: 1px;
+    z-index: 1;
+}
 
 .titolo {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -548,9 +597,8 @@ margin-left: 0px;
     text-align: left;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0px; 
-    padding-left: 20px;
 }
     
 .paddingtop {
