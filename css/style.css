@@ -246,11 +246,15 @@ margin-left: 0px;
 }
 
 .loghi{
-    width: 80%;
+    width: auto;
+    height: 120px;
     -webkit-filter: grayscale(90%);
     -moz-filter: grayscale(90%);
     filter: grayscale(90%);
-    padding-bottom: 25px;
+    padding-bottom: 50px;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 10px;
 }
 .frecciasu {
     font-size: 0px; line-height: 0%; width: 0px;
@@ -280,6 +284,16 @@ margin-left: 0px;
     font-weight: 100;
     font-size: 16px;
     letter-spacing: 1px;
+}
+
+.testofooter {
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: gray;
+    padding-top: 50px;
 }
 
 .testo10 {
