@@ -246,8 +246,7 @@ margin-left: 0px;
 }
 
 .loghi{
-    width: auto;
-    height: 120px;
+    height: 110px;
     -webkit-filter: grayscale(90%);
     -moz-filter: grayscale(90%);
     filter: grayscale(90%);
@@ -283,6 +282,22 @@ margin-left: 0px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 100;
     font-size: 16px;
+    letter-spacing: 0px;
+}
+
+.testoprog {
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+
+.testoprincipale {
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 16px;
     letter-spacing: 1px;
 }
 
@@ -305,13 +320,22 @@ margin-left: 0px;
     text-decoration: underline;
     padding-top: 25px;
 }
+
+.testo11 {
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
 .testo2 {
     text-align: left;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 100;
     font-size: 16px;
-    padding-top: 60px;
-    letter-spacing: 1px;
+    padding-top: 51px;
+    letter-spacing: 0px;
 }
 
 .testo4 {
@@ -327,6 +351,22 @@ margin-left: 0px;
     text-align: left;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 100;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.testo3bold {
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.testo3bold2 {
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
     font-size: 16px;
     letter-spacing: 1px;
 }
@@ -349,7 +389,7 @@ margin-left: 0px;
 }
 
 .logo {
-    background: url(../images/bg.png);
+    background: url(../images/bg_def.png);
     width: 100%;
     height: 100%;
     background-size: 100%;
@@ -496,7 +536,15 @@ margin-left: 0px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 100;
     font-size: 16px;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
+}
+    
+.testoprog {
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: 0px;
 }
 .testo2 {
     text-align: left;
@@ -504,7 +552,7 @@ margin-left: 0px;
     font-weight: 100;
     font-size: 16px;
     padding-top: 60px;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
 }
 
 .testo4 {
@@ -579,7 +627,7 @@ margin-left: 0px;
 }
 
 .logo {
-    background: url(../images/bg.svg);
+    background: url(../images/bg_def.png);
     width: 90%;
     height: 100%;
     background-size: 100%;
@@ -628,6 +676,15 @@ margin-left: 0px;
     text-decoration: underline;
     padding-top: 25px;
 }
+    
+.testo11 {
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
 
 .titolo {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -643,14 +700,22 @@ margin-left: 0px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 100;
     font-size: 16px;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
+}
+    
+.testoprog {
+    text-align: left;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: 0px;
 }
 .testo2 {
     text-align: center;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 100;
     font-size: 16px;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     padding-top: 0px;
 }
 
@@ -671,6 +736,32 @@ margin-left: 0px;
     letter-spacing: 1px;
     padding-top: 0px;
 }
+    
+.testo3bold {
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+    
+.testo3bold2 {
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-top: 50px;
+}
+    
+.testo3bolod {
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding-top: 0px;
+}    
 
 .bordosx {
     border:0px;
@@ -682,7 +773,7 @@ margin-left: 0px;
 @media (max-width: 500px) {
     
 .logo {
-    background: url(../images/bg.svg);
+    background: url(../images/bg_def.png);
     width: 96%;
     height: 100%;
     background-size: 100%;
@@ -703,6 +794,6 @@ margin-left: 0px;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 100;
     font-size: 14px;
-    letter-spacing: 2px; 
-    padding-left: 20px;
+    letter-spacing: 0px; 
+    padding-left: 10px;
 }
